@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    color: white;
+}
+#textarea,#title{
+    background-color: rgb(31, 29, 29);
+    color: white;
+}
+.noteCard{
+    background-color: rgb(31, 29, 29);
+    color: white;
+    border-radius: 10px;
+    margin: 20%;
+}
+#allnotes{
+    justify-content: center;
+}
+.form-control{
+    border-radius: 10px;
+}
+#save{
+    border-radius: 20px;
+}
+
+.showcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
